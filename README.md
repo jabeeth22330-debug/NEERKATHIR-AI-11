@@ -36,6 +36,10 @@ The standalone prototype currently enables tomato screening only. Its confidence
 - `neerkathir_web_app.html` — separate single-file screening prototype.
 - `docs/` — submission checklist and demonstration script.
 
+## Deploy to Netlify
+
+Netlify runs `make all` and publishes `public/`. The Makefile stages the standalone web app from the root `index.html` along with its manifest, service worker, and icons. No Node or Android build is needed for this deploy.
+
 ## Run the main web app locally
 
 Requirements: Node.js and npm (or Bun), plus network access to install dependencies.
