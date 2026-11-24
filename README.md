@@ -81,22 +81,3 @@ cd android
 
 On Windows, run `gradlew.bat assembleDebug` from `android`. The debug APK is normally written under `android/app/build/outputs/apk/debug/`. Install and test on a real device before any demonstration or distribution. A release APK requires signing and additional release configuration; none is implied by a debug build.
 
-## Before presenting or submitting
-
-1. Run the web app and Android build; record the environment, device, and any failures.
-2. Test the actual submission build on the target phone, including offline behavior and Tamil text/voice.
-3. Clearly label the standalone crop screening as an unvalidated prototype; do not describe the rule-based code as a trained AI model.
-4. Obtain qualified agricultural review for all crop guidance. Check current local registrations and restrictions before displaying any product information.
-5. Do not invent model accuracy, latency, battery, or other benchmark numbers. Measure them on the target device and document the method.
-6. Record the final demonstration and complete the checklist in [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md).
-
-See [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md) for a suggested walkthrough.
-
-## Challenge timeline noted in the project materials
-
-The supplied project brief lists Bharat AI-SoC Challenge Phase 1 as due **23 November 2026** and Phase 2 as due **5 February 2027**. Confirm dates, eligibility, and submission requirements with the official challenge organizers; this repository does not verify them.
-
-## Contributing and safety
-
-Please submit corrections with sources, especially for agronomy and pesticide content. Avoid adding pesticide doses or presenting a product as approved without current, location-specific expert confirmation. Do not include real farmer personal data, credentials, API keys, or private photographs in commits or demonstrations.
-
